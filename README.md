@@ -1,5 +1,5 @@
 # ToDoApp
-Vytvoření ToDoApp pro vyzkoušení všech CRUD operací. Data se ukládají do MySql.
+Vytvoření ToDoApp pro vyzkoušení všech CRUD operací. Data se ukládají do MariaDB.
 Úkoly se dají vkládat, editovat i mazat. Každému uživateli se zobrazí pouze jeho úkoly.
 
 Úvodni strana
