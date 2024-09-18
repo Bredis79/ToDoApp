@@ -1,0 +1,58 @@
+.container-sing {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sing > .register {
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 30px;
+    background-color: rgb(92, 42, 209);
+}
+
+.container-sing > .register h1 {    
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.container-sing > .register .form-input {
+    width: 60%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    _column-gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container-sing > .register .form-input .fa-user,
+.container-sing > .register .form-input .fa-lock {
+    transform: scale(1.5);
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+.container-sing > .register input[type="text"],
+.container-sing > .register input[type="password"] {
+    width: 60%;
+    height: 2rem;
+    padding-left: 10px;
+    border: none;
+    outline: 0;
+}
+
+.container-sing > .register .form-input button {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 5px;
+    _background-color: aqua;
+}

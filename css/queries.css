@@ -1,0 +1,110 @@
+@media (max-width: 1100px) {
+    .container > .seznam-ukolu {
+        width: 90%;
+    }
+
+    .container > .header .user-area-obal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        position: static;
+        right: 40px;
+    }
+
+    .container > .header .user-area-obal .user-area i {
+        order: 1;
+    }
+    
+    .container > .header .user-area-obal .user-area .alias {
+        order: 2;
+    }
+    
+    .container > .header .user-area-obal .user-area button {
+        order: 3;
+    }
+}
+
+@media (max-width: 850px) {
+    .container .header {
+            justify-content: space-between;
+        }
+    
+    .container .header .add-task-wrap {
+        margin-left: 10px;
+        position: fixed;
+    }    
+
+    #hamburger-menu:checked + * .user-area-obal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90px;
+        position: absolute;
+        bottom: -100px;
+        background-color: inherit;
+        right: 0px;
+        padding: 0 10px 10px 10px;
+        justify-content: center;
+    }
+   
+    .container .header .user-area-obal .user-area {
+        display: none;
+
+    }
+    
+    .container .header .hamburger-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+    }
+
+      .container .header .user-area-obal .user-area form .odhlasitBtn {
+        padding: 5px;
+    }
+
+    .container > .seznam-ukolu {
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 710px) {
+    .container .header {
+        height: 170px;
+        justify-content: center;
+    }
+    
+    .container .header form {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .container .header .add-task-wrap form .btn {
+        width: 100%;
+    }
+
+    #hamburger-menu:checked + * .user-area-obal {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        height: 90px;
+        width: 150px;
+        position: absolute;
+        bottom: 12px;
+        background-color: inherit;
+        right: 0px;
+        padding: 0 10px 10px 10px;
+        justify-content: center;
+
+    }
+
+    .container .header .hamburger-menu {
+        top: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+   
+}
